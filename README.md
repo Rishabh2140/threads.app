@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Threads App - Social Media Platform
 
-## Getting Started
+![Threads App Logo](public/assets/logo.svg) <!-- Optional: Add your app logo -->
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Threads is a Twitter-like social media platform that allows users to engage in conversations by posting threads, commenting, and liking posts. Built with a focus on user experience, Threads enables seamless interactions, letting users manage their profiles, reply to threads, tag others, and update profile photos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features
+- Post and comment on threads
+- Like posts to show appreciation
+- User profile management
+- Real-time updates for interactions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: 
+  - [Next.js](https://nextjs.org/): A React framework for building server-rendered applications.
+  - [TailwindCSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
+  - [Shadcn](https://shadcn.com/): A design system for building modern user interfaces.
 
-## Learn More
+- **Backend**: 
+  - [Express.js](https://expressjs.com/): A web application framework for Node.js.
+  - [Node.js](https://nodejs.org/): JavaScript runtime for building scalable network applications.
+  - [MongoDB](https://www.mongodb.com/): A NoSQL database for storing user and thread data.
+  - [Clerk](https://clerk.dev/): For user authentication and management.
+  - [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can access the live application at the following link:  
+[Threads App - Live Demo](https://threads-app-rishabh2140s-projects.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
